@@ -1,0 +1,114 @@
+body{
+    background-image: url(../img/cafes/images.jpeg);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: #FFE4C4;
+    font-family: 'Pacifico';
+}
+
+ul li{
+    color: white;
+}
+
+li a{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+li a:hover{
+    color: black;
+}
+
+li a:active{
+    color: DarkGoldenRod;
+}
+
+#eslogan {
+    font-family: 'Caveat', cursive; 
+    font-style: italic; 
+    font-size: 2em; 
+    color: Cornsilk; 
+    text-align: center; 
+    border: 2px solid Cornsilk;
+    width: 40%; 
+    margin: 0 auto;
+}
+
+#texto-normal{
+    font-family: 'Satisfy';
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2em;
+    padding: 30px;
+}
+
+#contenedor-logo{
+    text-align: center;
+}
+#logocafe{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+tr.categoria{
+    background-color: DarkGoldenrod; 
+    font-size: 2em;
+    text-shadow: 3px 3px White;
+}
+td, th{
+    border: 3px solid DarkGoldenrod;
+    border-collapse: collapse;
+    vertical-align: center;
+    width: 50%;
+    padding: 20px;
+}
+
+table{
+    background-color: Cornsilk; 
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em; 
+    width: 100%; 
+    height: auto;
+    margin: 50px auto; 
+    text-align: center; 
+    border-collapse: collapse;
+}
+img.fotocarta{
+    height: 200px;
+    width: 200px;
+}
+
+form.formulario{
+    border: 2px solid DarkGoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding: 30px;
+    background-color: black;
+}
+
+label{
+    font-family: 'Caveat', cursive;
+    color: cornsilk;
+    font-size: 1.5em;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacte con Nosotros</title>
+</head>
+    <body>
+        <h1>Café París</h1>
+        <p id="eslogan">Un momento de relax</p>
+        <ul>
+            <li><a href="index.html">Principal</li></a>
+            <li><a href="carta.html">Nuestra Carta</li></a>
+            <li><a href="ContacteConNosotros.html">Contácte con nosotros</li></a>
+        </ul>
+        <h2 id="nuestra-carta">Contacte con Nosotros</h2>
+        <form class="formulario" action="../php/procesaContacto.php" method="get">
+            <p>
+                <label>Nombre y Apellidos: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre y apellidos" required>
+            </p>
+            <p>
+                <label>Fecha de Nacimiento: </label>
+                <input type="date" id="date" name="date" required>
+            </p>
+            <p>
+                <label>Suele consumir:</label><br>
+
+                <label for="te">Té</label>
+                <input type="radio" id="te" name="bebida" value="te">
+                <label for="cafe">Café</label>
+                <input type="radio" id="cafe" name="bebida" value="cafe" checked>
+                <label for="ambos">Ambos</label>
+                <input type="radio" id="ambos" name="bebida" value="ambos">
+                
+            </p>
+            <p>
+                <label>Números de cafés al día: </label>
+                <input type="number" name="cafes" min="1" max="5" required>
+            </p>
+            <p>
+                <label>Seleccione su cafetería: </label>
+                <select id="cafeteria" name="cafeteria" required>
+                    <option value="Madrid" checked>Madrid</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Barcelona">Barcelona</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="checkbox" name="checkbox" checked><label>Deseo recibir información sobre novedades y ofertas</label>
+            </p>
+            <input type="button" value="Enviar">
+            <input type="button" value="limpiar">
+        </form>
+    </body>
+</html>
